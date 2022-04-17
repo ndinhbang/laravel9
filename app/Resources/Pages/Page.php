@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Resources\Pages;
+namespace App\Resources\Pages;
 
 use Filament\Pages\Page as BasePage;
 

@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Form\Components\Field;
+
+use App\Form\Components\Concerns;
+use App\Form\Components\Field;
+
+class Checkbox extends Field
+{
+    use Concerns\CanBeAccepted;
+    use Concerns\CanBeInline;
+    use Concerns\HasExtraInputAttributes;
+
+    protected string $view = 'forms::components.checkbox';
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->default(false);
+
+        $this->afterStateHydrated(function (Checkbox $component, $state): void {
+            $component->state((bool) $state);
+        });
+
+        $this->rule('boolean');
+    }
+}

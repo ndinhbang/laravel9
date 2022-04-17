@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Resources\Pages\Concerns;
+namespace App\Resources\Pages\Concerns;
 
 trait HasRecordBreadcrumb
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Filament\Resources\Pages\Concerns;
+namespace App\Resources\Pages\Concerns;
 
 use Filament\Pages\Concerns\HasFormActions;
-use Filament\Resources\Form;
+use App\Resources\Form;
 
 trait UsesResourceForm
 {

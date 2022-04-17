@@ -2,9 +2,9 @@
 
 namespace App\Resources;
 
+use App\Form\Components\Component;
+use App\Form\Components\Layout\Grid;
 use Closure;
-use App\Forms\Components\Component;
-use App\Forms\Components\Grid;
 
 class Form
 {

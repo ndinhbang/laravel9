@@ -1,6 +1,6 @@
 <?php
 
-namespace Filament\Resources\Pages\Concerns;
+namespace App\Resources\Pages\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
